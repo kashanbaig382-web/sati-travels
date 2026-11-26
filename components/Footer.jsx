@@ -28,11 +28,11 @@ export default function Footer() {
           </p>
 
           <a
-            href="mailto:Meharazan91@gmail.com"
+            href="mailto:Admin@satitravels.online"
             className="footer-email"
           >
             <Mail size={17} />
-            Meharazan91@gmail.com
+            Admin@satitravels.online
           </a>
         </div>
 
@@ -66,13 +66,13 @@ export default function Footer() {
 
           <div className="footer-contact-item">
             <Mail size={19} />
-            <a href="mailto:Meharazan91@gmail.com">
+            <a href="mailto:Admin@satitravels.online">
               Send us an email
             </a>
           </div>
 
           <a
-            href="mailto:Meharazan91@gmail.com"
+            href="mailto:Admin@satitravels.online"
             className="footer-talk"
           >
             Let's Talk <ArrowUpRight size={17} />

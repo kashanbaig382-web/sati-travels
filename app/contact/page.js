@@ -28,7 +28,7 @@ Email: ${form.email}
 Message:
 ${form.message}`;
 
-    const mailto = `mailto:Meharazan91@gmail.com?subject=${encodeURIComponent(
+    const mailto = `mailto:Admin@satitravels.online?subject=${encodeURIComponent(
       form.subject || "Website Enquiry"
     )}&body=${encodeURIComponent(body)}`;
 
@@ -71,8 +71,8 @@ ${form.message}`;
             </div>
             <div>
               <h3>Email Address</h3>
-              <a href="mailto:Meharazan91@gmail.com">
-                Meharazan91@gmail.com
+              <a href="mailto:Admin@satitravels.online">
+                Admin@satitravels.online
               </a>
             </div>
           </div>

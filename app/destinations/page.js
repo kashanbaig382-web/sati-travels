@@ -125,7 +125,7 @@ export default function DestinationsPage() {
                 <p>{destination.description}</p>
 
                 <a
-                  href={`mailto:Meharazan91@gmail.com?subject=${encodeURIComponent(
+                  href={`mailto:Admin@satitravels.online?subject=${encodeURIComponent(
                     `Travel Enquiry - ${destination.name}`
                   )}&body=${encodeURIComponent(
                     `Hello Sati Travels,\n\nI would like to enquire about travelling to ${destination.name}, ${destination.country}.\n\nPlease share more details.\n\nThank you.`
@@ -149,7 +149,7 @@ export default function DestinationsPage() {
           Have a destination in mind? Get in touch with our team to discuss
           your travel enquiry.
         </p>
-        <a href="mailto:Meharazan91@gmail.com">
+        <a href="mailto:Admin@satitravels.online">
           Plan Your Journey <ArrowUpRight size={18} />
         </a>
       </section>

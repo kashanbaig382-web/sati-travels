@@ -101,8 +101,8 @@ export default function TermsPage() {
         <h2>12. Contact Information</h2>
         <p>
           <strong>Sati Travels Ltd</strong><br />
-          Email: <a href="mailto:Meharazan91@gmail.com">
-            Meharazan91@gmail.com
+          Email: <a href="mailto:Admin@satitravels.online">
+            Admin@satitravels.online
           </a><br />
           Office 2254, 85 Dunstall Hill, Wolverhampton,
           England, WV6 0SR<br />

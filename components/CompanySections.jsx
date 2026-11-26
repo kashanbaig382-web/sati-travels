@@ -89,7 +89,7 @@ export default function CompanySections() {
             </p>
 
             <a
-              href="mailto:Meharazan91@gmail.com"
+              href="mailto:Admin@satitravels.online"
               className="about-button"
             >
               Get to Know Us
@@ -169,7 +169,7 @@ export default function CompanySections() {
             </div>
 
             <a
-              href="mailto:Meharazan91@gmail.com"
+              href="mailto:Admin@satitravels.online"
               className="cta-button"
             >
               Plan Your Trip

@@ -88,7 +88,7 @@ Please contact this customer regarding their flight inquiry.
 `;
 
     window.location.href =
-      `mailto:Meharazan91@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
+      `mailto:Admin@satitravels.online?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
   };
 
   return (
