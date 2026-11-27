@@ -47,6 +47,7 @@ export default function FlightSearch() {
     }));
   };
 
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -68,28 +69,30 @@ export default function FlightSearch() {
       return;
     }
 
-    const subject = "New Flight Booking Inquiry - Sati Travels";
-
     const message = `
-NEW FLIGHT INQUIRY
+*SATI TRAVELS - NEW FLIGHT ENQUIRY*
 
-Customer Name: ${form.name}
+*Customer Details*
+Name: ${form.name}
 Email: ${form.email}
 Phone: ${form.phone}
 
-Trip Type: ${tripType}
+*Flight Details*
+Trip Type: ${tripType === "roundtrip" ? "Round Trip" : "One Way"}
 Departure From: ${form.from}
 Destination: ${form.to}
 Departure Date: ${form.departure}
 Return Date: ${tripType === "roundtrip" ? form.returnDate : "One Way"}
 Passengers: ${form.passengers}
 
-Please contact this customer regarding their flight inquiry.
+Please contact this customer regarding their flight enquiry.
 `;
 
-    window.location.href =
-      `mailto:Admin@satitravels.online?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
+    const whatsappURL = `https://wa.me/447460003094?text=${encodeURIComponent(message)}`;
+
+    window.open(whatsappURL, "_blank");
   };
+
 
   return (
     <div className="flight-panel">
@@ -257,14 +260,14 @@ Please contact this customer regarding their flight inquiry.
           </div>
 
           <button type="submit" className="flight-submit">
-            Search Flights
+            Send Enquiry
             <Search size={19} />
           </button>
         </div>
 
         <p className="booking-note">
-          Submit your travel details and our team will
-          contact you with available flight options.
+          Submit your travel details through WhatsApp.
+          Our team will contact you regarding available flight options.
         </p>
       </form>
     </div>
