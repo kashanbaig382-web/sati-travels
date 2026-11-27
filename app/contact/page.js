@@ -19,21 +19,31 @@ export default function ContactPage() {
     message: "",
   });
 
+
   function handleSubmit(e) {
     e.preventDefault();
 
-    const body = `Name: ${form.name}
+    const message = `
+*SATI TRAVELS - NEW WEBSITE ENQUIRY*
+
+*Customer Details*
+Name: ${form.name}
 Email: ${form.email}
 
-Message:
-${form.message}`;
+*Subject*
+${form.subject}
 
-    const mailto = `mailto:Admin@satitravels.online?subject=${encodeURIComponent(
-      form.subject || "Website Enquiry"
-    )}&body=${encodeURIComponent(body)}`;
+*Message*
+${form.message}
 
-    window.location.href = mailto;
+Please contact this customer regarding their enquiry.
+`;
+
+    const whatsappURL = `https://wa.me/447460003094?text=${encodeURIComponent(message)}`;
+
+    window.open(whatsappURL, "_blank");
   }
+
 
   return (
     <main className="contact-page">
@@ -65,17 +75,23 @@ ${form.message}`;
             regarding your travel plans.
           </p>
 
+
           <div className="contact-info-card">
             <div className="contact-info-icon">
-              <Mail size={23} />
+              <MessageCircle size={23} />
             </div>
             <div>
-              <h3>Email Address</h3>
-              <a href="mailto:Admin@satitravels.online">
-                Admin@satitravels.online
+              <h3>WhatsApp</h3>
+              <a
+                href="https://wa.me/447460003094"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                +44 7460 003094
               </a>
             </div>
           </div>
+
 
           <div className="contact-info-card">
             <div className="contact-info-icon">
@@ -165,12 +181,11 @@ ${form.message}`;
             </label>
 
             <button type="submit">
-              Send Enquiry <Send size={18} />
+              Send via WhatsApp <Send size={18} />
             </button>
 
             <small>
-              Your email application will open with your enquiry prepared
-              for sending.
+              Your enquiry will open in WhatsApp, ready for you to send.
             </small>
           </form>
         </div>
