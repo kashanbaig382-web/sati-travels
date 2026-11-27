@@ -103,7 +103,11 @@ export default function AboutPage() {
             step with confidence.
           </p>
 
-          <a href="mailto:Admin@satitravels.online">
+          <a
+            href="https://wa.me/447460003094"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Connect With Us <ArrowUpRight size={18} />
           </a>
         </div>
@@ -158,7 +162,11 @@ export default function AboutPage() {
           Have a travel question or want to discuss your next journey?
           We would love to hear from you.
         </p>
-        <a href="mailto:Admin@satitravels.online">
+        <a
+          href="https://wa.me/447460003094"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Get In Touch <ArrowUpRight size={18} />
         </a>
       </section>

@@ -97,7 +97,12 @@ export default function ExploreSection() {
               </p>
             </div>
 
-            <a href="mailto:Admin@satitravels.online" className="section-link">
+            <a
+              href="https://wa.me/447460003094"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="section-link"
+            >
               Explore With Us
               <ArrowUpRight size={19} />
             </a>
@@ -129,7 +134,11 @@ export default function ExploreSection() {
                     <p>{destination.description}</p>
 
                     <a
-                      href={`mailto:Admin@satitravels.online?subject=${encodeURIComponent(`Travel inquiry for ${destination.name}`)}`}
+                      href={`https://wa.me/447460003094?text=${encodeURIComponent(
+                        `Hello Sati Travels, I would like to enquire about ${destination.name}. Please share more details.`
+                      )}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       aria-label={`Enquire about ${destination.name}`}
                       className="destination-arrow"
                     >
@@ -185,7 +194,9 @@ export default function ExploreSection() {
                   <p>{service.description}</p>
 
                   <a
-                    href="mailto:Admin@satitravels.online"
+                    href="https://wa.me/447460003094"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="service-link"
                   >
                     Learn More

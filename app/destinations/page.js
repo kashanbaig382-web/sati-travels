@@ -125,11 +125,15 @@ export default function DestinationsPage() {
                 <p>{destination.description}</p>
 
                 <a
-                  href={`mailto:Admin@satitravels.online?subject=${encodeURIComponent(
-                    `Travel Enquiry - ${destination.name}`
-                  )}&body=${encodeURIComponent(
-                    `Hello Sati Travels,\n\nI would like to enquire about travelling to ${destination.name}, ${destination.country}.\n\nPlease share more details.\n\nThank you.`
+                  href={`https://wa.me/447460003094?text=${encodeURIComponent(
+                    `Hello Sati Travels,
+
+I would like to enquire about travelling to ${destination.name}, ${destination.country}.
+
+Please share more details about available travel packages.`
                   )}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="destination-link"
                 >
                   Enquire Now <ArrowUpRight size={18} />
@@ -149,7 +153,11 @@ export default function DestinationsPage() {
           Have a destination in mind? Get in touch with our team to discuss
           your travel enquiry.
         </p>
-        <a href="mailto:Admin@satitravels.online">
+        <a
+          href="https://wa.me/447460003094"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Plan Your Journey <ArrowUpRight size={18} />
         </a>
       </section>

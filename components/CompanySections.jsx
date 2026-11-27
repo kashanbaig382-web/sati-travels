@@ -89,7 +89,9 @@ export default function CompanySections() {
             </p>
 
             <a
-              href="mailto:Admin@satitravels.online"
+              href="https://wa.me/447460003094"
+              target="_blank"
+              rel="noopener noreferrer"
               className="about-button"
             >
               Get to Know Us
@@ -169,7 +171,9 @@ export default function CompanySections() {
             </div>
 
             <a
-              href="mailto:Admin@satitravels.online"
+              href="https://wa.me/447460003094"
+              target="_blank"
+              rel="noopener noreferrer"
               className="cta-button"
             >
               Plan Your Trip

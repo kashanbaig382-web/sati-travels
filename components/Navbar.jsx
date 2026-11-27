@@ -40,12 +40,22 @@ export default function Navbar() {
               {link.name}
             </Link>
           ))}
-          <a href="mailto:Admin@satitravels.online" className="mobile-contact">
+          <a
+            href="https://wa.me/447460003094"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mobile-contact"
+          >
             Get in Touch <ArrowUpRight size={16} />
           </a>
         </nav>
 
-        <a href="mailto:Admin@satitravels.online" className="nav-cta">
+        <a
+          href="https://wa.me/447460003094"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="nav-cta"
+        >
           Let's Talk <ArrowUpRight size={17} />
         </a>
 

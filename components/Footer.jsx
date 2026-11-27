@@ -28,11 +28,13 @@ export default function Footer() {
           </p>
 
           <a
-            href="mailto:Admin@satitravels.online"
+            href="https://wa.me/447460003094"
+            target="_blank"
+            rel="noopener noreferrer"
             className="footer-email"
           >
-            <Mail size={17} />
-            Admin@satitravels.online
+            <MessageCircle size={17} />
+            +44 7460 003094
           </a>
         </div>
 
@@ -66,13 +68,19 @@ export default function Footer() {
 
           <div className="footer-contact-item">
             <Mail size={19} />
-            <a href="mailto:Admin@satitravels.online">
-              Send us an email
+            <a
+              href="https://wa.me/447460003094"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Chat with us on WhatsApp
             </a>
           </div>
 
           <a
-            href="mailto:Admin@satitravels.online"
+            href="https://wa.me/447460003094"
+            target="_blank"
+            rel="noopener noreferrer"
             className="footer-talk"
           >
             Let's Talk <ArrowUpRight size={17} />
