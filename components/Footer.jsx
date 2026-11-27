@@ -5,6 +5,7 @@ import {
   Mail,
   MapPin,
   ArrowUpRight,
+  MessageCircle,
 } from "lucide-react";
 
 export default function Footer() {
